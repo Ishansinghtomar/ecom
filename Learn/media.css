@@ -1,0 +1,33 @@
+#ishan{
+
+height: 100px;
+width:  100px;
+background-color: pink;
+border: 2px solid black;
+}
+
+@media (max-width:300px)
+{
+#ishan{
+    background-color: green;
+
+}    
+}
+
+@media(max-width:600px) and (min-width:300px)
+{
+
+    #ishan{
+        background-color: purple;
+
+}
+}
+
+@media (min-width:600px)
+{
+
+    #ishan{
+        background-color: yellow;
+
+}
+}

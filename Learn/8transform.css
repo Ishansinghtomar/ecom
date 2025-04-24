@@ -1,0 +1,18 @@
+div{
+
+height: 100px;
+width: 100px;
+background-color: green;
+border: 2px solid black;
+/* transform: rotate(180deg); */
+/* position: absolute;
+top: 1o0px;
+left: 100px;; */
+
+}
+
+div:hover
+{
+    transition:all 5s steps(5) ;
+    transform: translateX(200px);
+}

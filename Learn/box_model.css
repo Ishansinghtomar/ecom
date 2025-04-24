@@ -1,0 +1,35 @@
+
+#outer{
+
+    max-height: fit-content;
+    max-width: fit-content;
+    padding: 20px;
+    background-color: bisque;
+
+}
+
+.main{
+
+
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#top
+{
+
+    background-color: red;
+}
+
+#mid{
+
+    background-color: yellow;
+}
+
+#bottom{
+
+    background-color: green;
+}

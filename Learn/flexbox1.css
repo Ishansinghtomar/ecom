@@ -1,0 +1,46 @@
+*{
+padding: 0px;
+    margin:0px;
+
+}
+
+#container{
+background-color: pink;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+a{
+text-decoration: none;
+color: whitesmoke;
+
+}
+
+li{
+
+list-style-type: none;
+
+}
+
+
+
+
+.outer{
+
+ height: 200px; ;
+ width: 200px;
+display: flex;
+background-color: blanchedalmond;
+justify-content: center;
+align-items: center;
+
+}
+
+.inner{
+
+height: 100px;
+width: 100px;
+background-color: aquamarine;
+
+}
