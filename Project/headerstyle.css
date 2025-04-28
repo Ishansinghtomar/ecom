@@ -1,0 +1,277 @@
+*{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+}
+
+/* The above is done to keep margin zero 
+add fonts 
+ border box is used bcz if i add margin and pading it will change the total height and width ;
+*/
+
+.navbar{
+height:60px;
+background-color: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+/* Main navbar class
+
+outer main div1
+height as per amazon inspect element
+background color of bar 
+text xolor white 
+display flex so that items stay inside the navbar 
+align-items centre to keep the contet in between top and bottom of the bar 
+
+\*/
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+/* logo class outer
+set height and widt of logo
+
+  */
+
+
+.logo
+{
+background-image: url("/images/amazon_logo.png");
+height: 50px;
+width: 100%;
+background-size: cover;
+}
+
+
+/*  logo  class inner 
+image url of logo 
+height given 
+widt always take 100 % of parent 
+background-cover so that image sahi se dikh jaye  :))
+
+*/
+
+.border{
+
+    border: 2px solid transparent;
+}
+
+.border:hover
+{
+border: 2px solid white ;
+}
+
+
+/* 
+border class humne dono logo and location wale ko di hai abhi tak
+usme details and transparent issliye di taki CLS na ho
+
+.border:hover
+
+mei color white kar diya and solid and baaki details dedi
+
+*/
+
+*/
+.add-first{
+
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+
+
+/* main address class=>add first paragraph class 
+
+color grey se hai 
+font size thida chota hai rem mei diya hai taaki responsive rahe outer element ke hisab se
+
+margin di hai for position above the icon na aaye  
+*/
+
+
+.add-second 
+{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+
+/* main address class=> second paragraph clas
+margin so that text dosent stick to the icon 
+
+*/
+
+.add-icon 
+{
+    display: flex;
+    align-items: center;
+}
+
+/* address and font awesome wale ke liye combine class => add second ke parent class
+
+flex rtaki ek row mei aa jaye 
+center taaki beech mei rahe 
+*/
+
+
+
+
+
+
+/* box 3 search box wala  */
+.nav-search{
+
+display: flex;
+justify-content: space-evenly;
+background-color: yellow;
+border-radius: 4px;
+width: 1000px;
+height: 40px;
+}
+
+.border-high:hover
+{
+border: 2px solid #FF9900;
+
+}
+
+.search-select{
+border-top-left-radius:  4px;
+border-bottom-left-radius:  4px;
+background-color: #f3f3f3;
+width: 50px;
+text-align: center;
+border:none;
+
+}
+
+
+.search-input{
+
+width: 100%;
+font-size: 1.1rem;
+border: none;
+}
+
+/* search automatically saaara area le lega  */
+
+.search-icon{
+width: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#FF9900 ;
+border-top-right-radius:4px;
+border-bottom-right-radius: 4px;
+color: black;
+}
+
+
+/* flag jo bnaya hai  */
+
+.country-sec{
+    height:40px ;
+    width:65px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.flag-logo
+{   height: 17px;
+    width: 20px;
+    background-image: url(./images/flag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.country-name{
+    height: 19px;
+    width: 19px;
+    font-weight: 600;
+    margin-right: 2px;
+
+}
+
+/* kaafi mahnat */
+
+.login-div{
+    display: grid;
+    grid-template-columns: 120px 10px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'one one' 'two three';
+    
+    }
+    p{
+        margin:0px
+    }
+    .sign-in{
+      gap: 0px;
+    font-size: 0.7rem;
+    grid-area: one;
+    }
+    .text-sigin
+    {
+        font-size: 1rem;
+    font-weight: 500;
+    grid-area: two;
+    }
+    .grid101{
+        grid-area: three;
+    
+    }
+
+    .nav-cart i {
+font-size: 30px;
+    }
+    .nav-cart{
+        font-weight: 500;
+    }
+
+    
+
+
+
+
+    /* ============================================================================================================ */
+
+
+
+   .panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    align-items: center;
+    color: white;
+    justify-content:space-between;
+   } 
+
+   .panel-ops p
+   {
+    display: inline;
+    font-size:0.9rem;
+    margin-right:10px;
+   }
+
+   .panel-ops{
+    width: 80%;
+   }
+
+   .panel-deals
+   {
+    font-size:1rem;
+    padding-right: 20px;
+   }
+
+   .panel-all
+   {
+    padding-left: 12px;
+   }
