@@ -1,0 +1,88 @@
+.foot-panel1
+{
+background-color: #374758;
+color: white ;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.foot-panel-main{
+background-color:#222f3d;
+color:white;
+height: 260px;
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+.foot-panel-main ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 7px;
+
+}
+
+ul{
+
+margin-top: 20px;
+
+}
+
+.foot-panel3
+{
+    height: 60px;
+background-color:#222f3d ;
+color:white;
+border-top: 1px solid white ;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.logo-panel{
+
+background-image: url('./images/amazon_logo.png');
+height: 50px;
+width: 100px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.box101
+{
+    border: 2px solid white;
+    padding :4px;
+    margin-left: 5px;
+    display: flex;
+}
+
+
+
+.foot-panel4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111111;
+    color:white;
+}
+
+.foot-panel4 ul a
+{
+    text-decoration: none;
+    font-size: 0.85rem;
+    color:white;
+    margin-left: 10px;
+    
+}
+
+.halmark
+{
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
