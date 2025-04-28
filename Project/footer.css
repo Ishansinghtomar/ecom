@@ -54,8 +54,8 @@ background-repeat: no-repeat;
 
 .box101
 {
-    border: 2px solid white;
-    padding :4px;
+    border: 1px solid white;
+    padding :5px;
     margin-left: 5px;
     display: flex;
 }
@@ -79,6 +79,12 @@ background-repeat: no-repeat;
     color:white;
     margin-left: 10px;
     
+}
+
+
+.foot-panel4 ul a:hover{
+
+        text-decoration: underline white;
 }
 
 .halmark
